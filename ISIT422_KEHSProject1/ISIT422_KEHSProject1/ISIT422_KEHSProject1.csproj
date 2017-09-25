@@ -80,6 +80,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Elizabeth.html" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
