@@ -83,6 +83,9 @@
   <ItemGroup>
     <Content Include="Elizabeth.html" />
     <Content Include="Global.asax" />
+    <Content Include="Hyejin.html" />
+    <Content Include="index.html" />
+    <Content Include="Kristi.html" />
     <Content Include="Silvia.html" />
     <Content Include="Web.config" />
   </ItemGroup>
