@@ -16,20 +16,21 @@ namespace ISIT422_Product_Notes.Controllers
             new Product { Id = 2, Name = "Yo-yo", Category = "Toys", Price = 3.75M },
             new Product { Id = 3, Name = "Hammer", Category = "Hardware", Price = 16.99M }
         };
-    }
 
-    public IEnumerable<Product> GetAllProducts()
-    {
-        return products;
-    }
 
-    public IHttpActionResult GetProduct(int id)
-    {
-        var product = products.FirstOrDefault((p) => p.Id == id);
-        if (product == null)
+        public IEnumerable<Product> GetAllProducts()
         {
-            return NotFound();
+            return products;
         }
-        return Ok(product);
+
+        public IHttpActionResult GetProduct(int id)
+        {
+            var product = products.FirstOrDefault((p) => p.Id == id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            return Ok(product);
+        }
     }
 }
