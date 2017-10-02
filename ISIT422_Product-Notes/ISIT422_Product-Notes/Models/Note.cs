@@ -7,9 +7,9 @@ namespace ISIT422_Product_Notes.Models
 {
     public class Note
     {
-        int Id { get; set; }
-        string Subject { get; set; }
-        string Details { get; set; }
-        int Priority { get; set; }
+        public int Id { get; set; }
+        public string Subject { get; set; }
+        public string Details { get; set; }
+        public int Priority { get; set; }
     }
 }
