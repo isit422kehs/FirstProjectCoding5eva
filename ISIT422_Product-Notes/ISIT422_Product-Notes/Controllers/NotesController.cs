@@ -25,7 +25,7 @@ namespace ISIT422_Product_Notes.Controllers
         public IHttpActionResult GetNote(int id)
         {
             var note = notes.FirstOrDefault((p) => p.Id == id);
-            if (note==null)
+            if (note == null)
             {
                 return NotFound();
             }
