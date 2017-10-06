@@ -142,3 +142,21 @@ C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\G
 C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.WebPages.xml
 C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.WebPages.Deployment.xml
 C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.WebPages.Razor.xml
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\Antlr3.Runtime.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Helpers.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Mvc.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Optimization.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Razor.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.WebPages.Deployment.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.WebPages.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.WebPages.Razor.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\WebGrease.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\Antlr3.Runtime.pdb
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Helpers.xml
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Mvc.xml
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Optimization.xml
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Razor.xml
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.WebPages.xml
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.WebPages.Deployment.xml
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.WebPages.Razor.xml
