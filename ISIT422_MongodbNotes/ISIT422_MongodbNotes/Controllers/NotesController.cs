@@ -19,10 +19,34 @@ namespace ISIT422_MongodbNotes.Controllers
 
         public IEnumerable<Note> GetAllNotes()
         {
-            return notes;
+            mongoDatabase = RetreiveMongohqDb();
+
+            List<Note> noteList = new List<Note>();
+            try
+            {
+                var mongoList = mongoDatabase.GetCollection("Notes").FindAll().AsEnumerable();
+                noteList = (from note in mongoList
+                            select new Note
+                            {
+                                Id = note["_id"].AsString,
+                                Subject = note["Subject"].AsString,
+                                Details = note["Details"].AsString,
+                                Priority = note["Priority"].AsInt32
+
+                            }).ToList();
+            }
+            catch (Exception)
+            {
+                throw new ApplicationException("failed to get data from Mongo");
+            }
+            noteList.Sort(); // comment this out until you implement the IComparable<Note>
+                             // interface definition to your Note class,
+            return noteList;  // ASP API will convert a List of Note objects to json
         }
 
-        public IHttpActionResult GetNote(string id)  // make sure its string
+    }
+
+    public IHttpActionResult GetNote(string id)  // make sure its string
         {
             mongoDatabase = RetreiveMongohqDb();
 
