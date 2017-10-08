@@ -34,8 +34,8 @@ namespace ISIT422_MongodbNotes.Controllers
                 var mongoList = mongoDatabase.GetCollection("Notes").FindAll().AsEnumerable();
                 noteList = (from note in mongoList select new Note
                             {
-                                Id = ((ObjectId)note["_id"]).ToString(), //note["_id"].AsString
-                    Subject = note["Subject"].AsString,
+                                Id = ((ObjectId)note["_id"]).ToString(), //note["_id"].AsStringoption(data-id="#{val._id}")
+                                Subject = note["Subject"].AsString,
                                 Details = note["Details"].AsString,
                                 Priority = note["Priority"].AsInt32
 
@@ -84,5 +84,4 @@ namespace ISIT422_MongodbNotes.Controllers
         }
 
     }
-
 }

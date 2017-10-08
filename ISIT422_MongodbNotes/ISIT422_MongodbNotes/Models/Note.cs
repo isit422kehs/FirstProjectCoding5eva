@@ -11,7 +11,7 @@ namespace ISIT422_MongodbNotes.Models
     {
         [BsonId]
         public string Id { get; set; }//string ObjectId
-    public string Subject { get; set; }
+        public string Subject { get; set; }
         public string Details { get; set; }
         public int Priority { get; set; }
 
