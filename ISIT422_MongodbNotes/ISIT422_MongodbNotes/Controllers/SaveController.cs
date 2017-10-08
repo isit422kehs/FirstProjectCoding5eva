@@ -1,4 +1,5 @@
-﻿using MongoDB.Driver;
+﻿using ISIT422_MongodbNotes.Models;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
