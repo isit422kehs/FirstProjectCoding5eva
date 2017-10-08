@@ -1,4 +1,5 @@
 ﻿using ISIT422_MongodbNotes.Models;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ namespace ISIT422_MongodbNotes.Controllers
 {
     public class NotesController : ApiController
     {
-       
+        MongoDatabase mongoDatabase;
         public IEnumerable<Note> GetAllNotes()
         {
             mongoDatabase = RetreiveMongohqDb();
