@@ -10,13 +10,7 @@ namespace ISIT422_MongodbNotes.Controllers
 {
     public class NotesController : ApiController
     {
-        Note[] notes = new Note[]
-        {
-            new Note { Id = 1, Priority = 3, Subject = "Wake up", Details = "Set alarm of 7:00 am and get out of bed." },
-            new Note { Id = 2, Priority = 2, Subject = "Eat breakfast", Details = "Eat a healthy breakfast."},
-            new Note { Id = 3, Priority = 5, Subject = "Go to work", Details = "Get to work before 9:00 am."}
-        };
-
+       
         public IEnumerable<Note> GetAllNotes()
         {
             mongoDatabase = RetreiveMongohqDb();

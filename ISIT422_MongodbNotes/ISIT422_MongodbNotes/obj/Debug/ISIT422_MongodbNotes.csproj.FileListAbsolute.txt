@@ -26,3 +26,6 @@ C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\G
 C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes\obj\Debug\ISIT422_MongodbNotes.csprojResolveAssemblyReference.cache
 C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes\obj\Debug\ISIT422_MongodbNotes.dll
 C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes\obj\Debug\ISIT422_MongodbNotes.pdb
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes\obj\Debug\ISIT422_MongodbNotes.csprojResolveAssemblyReference.cache
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes\obj\Debug\ISIT422_MongodbNotes.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes\obj\Debug\ISIT422_MongodbNotes.pdb
