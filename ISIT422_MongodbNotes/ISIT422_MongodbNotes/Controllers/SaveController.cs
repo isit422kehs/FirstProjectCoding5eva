@@ -30,7 +30,8 @@ namespace ISIT422_MongodbNotes.Controllers
             var noteList = mongoDatabase.GetCollection("Notes");
             WriteConcernResult result;
             bool hasError = false;
-            if (string.IsNullOrEmpty(newNote.Id))
+            
+            if (string.IsNullOrEmpty(newNote.Id))//string.IsNullOrEmpty(newNote.Id)
             {
                 newNote.Id = ObjectId.GenerateNewId().ToString();
                 result = noteList.Insert<Note>(newNote);
@@ -46,6 +47,7 @@ namespace ISIT422_MongodbNotes.Controllers
                 result = noteList.Update(query, update);
                 hasError = result.HasLastErrorMessage;
             }
+            
             if (!hasError)
             {
                 return newNote;

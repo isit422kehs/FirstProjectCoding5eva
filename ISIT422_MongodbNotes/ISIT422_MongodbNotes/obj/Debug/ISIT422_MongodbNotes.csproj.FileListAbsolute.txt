@@ -63,3 +63,12 @@ C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422
 C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes\bin\System.Net.Http.Formatting.xml
 C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes\bin\System.Web.Http.xml
 C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes\bin\System.Web.Http.WebHost.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes\bin\MongoDB.Bson.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes\bin\MongoDB.Driver.Core.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes\bin\MongoDB.Driver.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes\bin\MongoDB.Driver.Legacy.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes\bin\MongoDB.Bson.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes\bin\MongoDB.Driver.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes\bin\MongoDB.Driver.Core.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes\bin\MongoDB.Driver.Legacy.xml

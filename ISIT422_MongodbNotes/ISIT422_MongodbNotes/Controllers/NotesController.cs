@@ -1,4 +1,5 @@
 ﻿using ISIT422_MongodbNotes.Models;
+using MongoDB.Bson;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
@@ -12,18 +13,18 @@ namespace ISIT422_MongodbNotes.Controllers
 {
     public class NotesController : ApiController
     {
-        MongoDatabase mongoDatabase;
 
         private MongoDatabase RetreiveMongohqDb()
         {
-            MongoUrl myMongoURL = new MongoUrl(ConfigurationManager.ConnectionStrings["MongoHQ"].ConnectionString);
-            MongoClient mongoClient = new MongoClient(myMongoURL);
+            //MongoUrl myMongoURL = new MongoUrl(ConfigurationManager.ConnectionStrings["MongoHQ"].ConnectionString);
+            MongoClient mongoClient = new MongoClient("mongodb://db_elizabeth:741123@ds044689.mlab.com:44689/isit422_coding5eva");
             MongoServer server = mongoClient.GetServer();
-            return mongoClient.GetServer().GetDatabase("isit422_coding5eva");
+            return server.GetDatabase("isit422_coding5eva");
         }
-    
 
-    public IEnumerable<Note> GetAllNotes()
+        MongoDatabase mongoDatabase;
+
+        public IEnumerable<Note> GetAllNotes()
         {
             mongoDatabase = RetreiveMongohqDb();
 
@@ -31,21 +32,20 @@ namespace ISIT422_MongodbNotes.Controllers
             try
             {
                 var mongoList = mongoDatabase.GetCollection("Notes").FindAll().AsEnumerable();
-                noteList = (from note in mongoList
-                            select new Note
+                noteList = (from note in mongoList select new Note
                             {
-                                Id = note["_id"].AsString,
-                                Subject = note["Subject"].AsString,
+                                Id = ((ObjectId)note["_id"]).ToString(), //note["_id"].AsString
+                    Subject = note["Subject"].AsString,
                                 Details = note["Details"].AsString,
                                 Priority = note["Priority"].AsInt32
 
                             }).ToList();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                throw new ApplicationException("failed to get data from Mongo");
+                throw ex; //ApplicationException("failed to get data from Mongo");
             }
-            noteList.Sort(); // comment this out until you implement the IComparable<Note>
+            //noteList.Sort(); // comment this out until you implement the IComparable<Note>
                              // interface definition to your Note class,
             return noteList;  // ASP API will convert a List of Note objects to json
         }
@@ -63,7 +63,7 @@ namespace ISIT422_MongodbNotes.Controllers
                 noteList = (from nextNote in mongoList
                             select new Note
                             {
-                                Id = nextNote["_id"].AsString,
+                                Id = ((ObjectId)nextNote["_id"]).ToString(), //nextNote["_id"].AsString
                                 Subject = nextNote["Subject"].AsString,
                                 Details = nextNote["Details"].AsString,
                                 Priority = nextNote["Priority"].AsInt32,
@@ -72,7 +72,7 @@ namespace ISIT422_MongodbNotes.Controllers
             catch (Exception ex)
             {
 
-                throw;
+                throw ex;
             }
 
             var note = noteList.FirstOrDefault((p) => p.Subject == id);
