@@ -19,7 +19,7 @@ namespace ISIT422_MongodbNotes.Controllers
             MongoUrl myMongoURL = new MongoUrl(ConfigurationManager.ConnectionStrings["MongoHQ"].ConnectionString);
             MongoClient mongoClient = new MongoClient("mongodb://db_elizabeth:741123@ds044689.mlab.com:44689/isit422_coding5eva");
             MongoServer server = mongoClient.GetServer();
-            return mongoClient.GetServer().GetDatabase("kurtmd");
+            return mongoClient.GetServer().GetDatabase("isit422_coding5eva");
         }
     
 
