@@ -22,14 +22,36 @@ namespace ISIT422_MongodbNotes.Controllers
             return notes;
         }
 
-        public IHttpActionResult GetNote(int id)
+        public IHttpActionResult GetNote(string id)  // make sure its string
         {
-            var note = notes.FirstOrDefault((p) => p.Id == id);
+            mongoDatabase = RetreiveMongohqDb();
+
+            List<Note> noteList = new List<Note>();
+            try
+            {
+                var mongoList = mongoDatabase.GetCollection("Notes").FindAll().AsEnumerable();
+                noteList = (from nextNote in mongoList
+                            select new Note
+                            {
+                                Id = nextNote["_id"].AsString,
+                                Subject = nextNote["Subject"].AsString,
+                                Details = nextNote["Details"].AsString,
+                                Priority = nextNote["Priority"].AsInt32,
+                            }).ToList();
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+
+            var note = noteList.FirstOrDefault((p) => p.Subject == id);
             if (note == null)
             {
                 return NotFound();
             }
             return Ok(note);
         }
+
     }
 }
