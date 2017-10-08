@@ -1,5 +1,7 @@
-﻿using System;
+﻿using MongoDB.Driver;
+using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -9,7 +11,15 @@ namespace ISIT422_MongodbNotes.Controllers
 {
     public class SaveController : ApiController
     {
-        [HttpPost]
+        private MongoDatabase RetreiveMongohqDb()
+        {
+            MongoUrl myMongoURL = new MongoUrl(ConfigurationManager.ConnectionStrings["MongoHQ"].ConnectionString);
+            MongoClient mongoClient = new MongoClient(myMongoURL);
+            MongoServer server = mongoClient.GetServer();
+            return mongoClient.GetServer().GetDatabase("kurtmd");
+        }
+    
+    [HttpPost]
         public Note Save(Note newNote)
         {
             mongoDatabase = RetreiveMongohqDb();

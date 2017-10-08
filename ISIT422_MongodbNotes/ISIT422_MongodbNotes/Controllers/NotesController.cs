@@ -2,6 +2,7 @@
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -12,7 +13,17 @@ namespace ISIT422_MongodbNotes.Controllers
     public class NotesController : ApiController
     {
         MongoDatabase mongoDatabase;
-        public IEnumerable<Note> GetAllNotes()
+
+        private MongoDatabase RetreiveMongohqDb()
+        {
+            MongoUrl myMongoURL = new MongoUrl(ConfigurationManager.ConnectionStrings["MongoHQ"].ConnectionString);
+            MongoClient mongoClient = new MongoClient(myMongoURL);
+            MongoServer server = mongoClient.GetServer();
+            return mongoClient.GetServer().GetDatabase("kurtmd");
+        }
+    
+
+    public IEnumerable<Note> GetAllNotes()
         {
             mongoDatabase = RetreiveMongohqDb();
 
@@ -39,7 +50,7 @@ namespace ISIT422_MongodbNotes.Controllers
             return noteList;  // ASP API will convert a List of Note objects to json
         }
 
-    }
+    
 
     public IHttpActionResult GetNote(string id)  // make sure its string
         {
