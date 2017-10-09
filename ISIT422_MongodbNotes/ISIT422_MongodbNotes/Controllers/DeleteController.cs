@@ -1,5 +1,10 @@
-﻿using System;
+﻿using ISIT422_MongodbNotes.Models;
+using MongoDB.Bson;
+using MongoDB.Driver;
+using MongoDB.Driver.Builders;
+using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -9,6 +14,15 @@ namespace ISIT422_MongodbNotes.Controllers
 {
     public class DeleteController : ApiController
     {
+        MongoDatabase mongoDatabase;
+        private MongoDatabase RetreiveMongohqDb()
+        {
+            MongoUrl myMongoURL = new MongoUrl(ConfigurationManager.ConnectionStrings["MongoHQ"].ConnectionString);
+            MongoClient mongoClient = new MongoClient(myMongoURL);
+            MongoServer server = mongoClient.GetServer();
+            return server.GetDatabase("isit422_coding5eva");
+        }
+
         public HttpResponseMessage DELETE(string id)
         {
             bool found = true;
@@ -37,7 +51,7 @@ namespace ISIT422_MongodbNotes.Controllers
             }
             else
             {
-                HttpResponseMessage goodResponse = newHttpResponseMessage();
+                HttpResponseMessage goodResponse = new HttpResponseMessage();
                 goodResponse.StatusCode = HttpStatusCode.OK;
                 return goodResponse;
             }
