@@ -10,7 +10,7 @@ namespace ISIT422_MongodbNotes.Models
     public class Note
     {
         [BsonId]
-        public string Id { get; set; }//string ObjectId
+        public string Id { get; set; }
         public string Subject { get; set; }
         public string Details { get; set; }
         public int Priority { get; set; }

@@ -20,7 +20,7 @@ namespace ISIT422_MongodbNotes.Controllers
             MongoUrl myMongoURL = new MongoUrl(ConfigurationManager.ConnectionStrings["MongoHQ"].ConnectionString);
             MongoClient mongoClient = new MongoClient(myMongoURL);
             MongoServer server = mongoClient.GetServer();
-            return mongoClient.GetServer().GetDatabase("isit422_coding5eva");
+            return server.GetDatabase("isit422_coding5eva");
         }
     
     [HttpPost]
@@ -31,7 +31,7 @@ namespace ISIT422_MongodbNotes.Controllers
             WriteConcernResult result;
             bool hasError = false;
             
-            if (string.IsNullOrEmpty(newNote.Id))//string.IsNullOrEmpty(newNote.Id)
+            if (string.IsNullOrEmpty(newNote.Id))
             {
                 newNote.Id = ObjectId.GenerateNewId().ToString();
                 result = noteList.Insert<Note>(newNote);
