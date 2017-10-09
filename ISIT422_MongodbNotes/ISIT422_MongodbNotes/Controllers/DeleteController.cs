@@ -23,7 +23,8 @@ namespace ISIT422_MongodbNotes.Controllers
             return server.GetDatabase("isit422_coding5eva");
         }
 
-        public HttpResponseMessage DELETE(string id)
+        [HttpDelete]
+        public HttpResponseMessage Delete(string id)
         {
             bool found = true;
             string subject = id;
