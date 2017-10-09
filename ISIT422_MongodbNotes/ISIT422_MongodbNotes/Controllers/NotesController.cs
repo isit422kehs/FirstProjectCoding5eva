@@ -43,7 +43,7 @@ namespace ISIT422_MongodbNotes.Controllers
             {
                 throw ex; //ApplicationException("failed to get data from Mongo");
             }
-            //noteList.Sort(); // comment this out until you implement the IComparable<Note>
+            noteList.Sort(); // comment this out until you implement the IComparable<Note>
                              // interface definition to your Note class,
             return noteList;  // ASP API will convert a List of Note objects to json
         }
