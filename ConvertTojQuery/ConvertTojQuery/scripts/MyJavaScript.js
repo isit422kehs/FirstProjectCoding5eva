@@ -5,32 +5,32 @@ var data = [{
     "Subject": "Pay electric bill",
     "Details": "Electric bill $250"
 }, {
-    "Id": 1,
+    "Id": 2,
     "Priority": 1,
     "Subject": "Pay Macy's",
     "Details": "Macy's bill $200"
 }, {
-    "Id": 2,
+    "Id": 3,
     "Priority": 2,
     "Subject": "Pay comcast bill",
     "Details": "Comcast bill $100"
 }, {
-    "Id": 2,
+    "Id": 4,
     "Priority": 2,
-    "Subject": "Buy grocerties",
+    "Subject": "Buy groceries",
     "Details": "Eggs, apples, milk",
 }, {
-    "Id": 2,
+    "Id": 5,
     "Priority": 2,
     "Subject": "Do homework",
     "Details": "Finish homework on time to avoid the wrath of Kurt"
 }, {
-    "Id": 3,
+    "Id": 6,
     "Priority": 3,
     "Subject": "Wash jeep",
     "Details": "Scrub everywhere to make the car shiny"
 }, {
-    "Id": 5,
+    "Id": 7,
     "Priority": 5,
     "Subject": "Add auto refresh",
     "Details": "Refresh"
@@ -55,20 +55,19 @@ $(document).on('pagebeforeshow ', '#pageone', function () {   // see: https://st
 
     });
 
-    $(document).on('pagebeforeshow', '#details-page', function () {
+});
 
-        var textString = 'fix me';
-        var id = $('#detailParmHere').text();
+$(document).on('pagebeforeshow', '#details-page', function () {
 
-        $.each(data, function (index, record) {
-            if (id == record.Id) {
-                textString = "Priority:  " + record.Priority + " Subject:  " + record.Subject + " Details:  " + record.Details;
-            }
-        });
+    var textString = 'fix me';
+    var id = $('#detailParmHere').text();
 
-        $('#showdata').text(textString);
-
+    $.each(data, function (index, record) {
+        if (id == record.Id) {
+            textString = "Priority:  " + record.Priority + " Subject:  " + record.Subject + " Details:  " + record.Details;
+        }
     });
 
+    $('#showdata').text(textString);
 
 });
