@@ -1,37 +1,66 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Coding5Eva Note App</title>
 	<meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
     <script type="text/javascript" src="Scripts/MyJavaScript.js"></script>
     <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
+
+
 <body>
     <div data-role="page" id="pageone">
+
         <div data-theme="a" data-role="header">
             <h3>First Page</h3>
+
         </div>
+
+
 
         <div data-role="content">
 
             <div>
                 <ul data-role="listview" data-autodividers="true" data-theme="a" id="notes"></ul>
             </div>
-
+            
             <br />
+
         </div>
 
         <div data-role="footer" data-theme="a">
+            <h6>To add a note, click the button below:</h6>
             <a href="Add.html">Go To Add Page</a>
             <br />
-            <h6>To delete a note, copy the subject then paste after clicking next link</h6>
+            <h6>To delete a note, copy the subject then paste after clicking link below</h6>
             <br />
             <a href="Delete.html"> Go To Delete Page</a>
             <h1>copyright KEHS 2017</h1>
         </div>
     </div>
+
+
+        <div data-role="page" id="details-page">
+            <div data-theme="a" data-role="header">
+                <h3>
+                    Details
+                </h3>
+                <a href="#pageone" class="ui-btn-left" data-transition="slide">Back</a>
+            </div>
+
+            <div data-role="content" data-theme="b">
+
+                <p id="detailParmHere" hidden>change1</p>
+                <p id="showdata">change2</p>
+            </div>
+
+            <div data-theme="a" data-role="footer" ">
+                <h1>copyright Coding5Eva 2017</h1>
+            </div>
+        </div>
 </body>
 </html>
