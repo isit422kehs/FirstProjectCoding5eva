@@ -64,13 +64,20 @@ $(document).on('pagebeforeshow', '#details-page', function () {
     var textString = 'fix me';
     var id = $('#detailParmHere').text();
 
+    // to make newline space
+    $.fn.multiline = function (text) {
+        this.text(text);
+        this.html(this.html().replace(/\n/g, '<br/>'));
+        return this;
+    }
+
     $.each(data, function (index, record) {
         if (id == record.Id) {
-            textString = "Priority:  " + record.Priority + " Subject:  " + record.Subject + " Details:  " + record.Details;
+            textString = 'Priority: ' + record.Priority + '\n\nSubject: ' + record.Subject + '\n\nDetails: ' + record.Details;
         }
     });
 
-    $('#showdata').text(textString);
+    $('#showdata').multiline(textString);
 });
 
 $(document).on('pagebeforeshow', '#add-page', function () {
