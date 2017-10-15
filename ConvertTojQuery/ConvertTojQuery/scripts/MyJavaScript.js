@@ -71,3 +71,28 @@ $(document).on('pagebeforeshow', '#details-page', function () {
     $('#showdata').text(textString);
 
 });
+
+$(document).on('pagebeforeshow', '#add-page', function () {
+
+    var subject = $('#subject').val();
+    var details = $('#details').val();
+    var priority = $('#priority').val();
+
+    $.ajax({
+        type: "POST",
+        url: "api/save",
+        data: {
+            "Subject": subject,
+            "Details": details,
+            "Priority": priority
+        },
+        success: function () {
+            $('#addNote').text("success");
+            showNotes();
+        },
+        error: function (status) {
+            $('#addNote').text(status);
+        }
+    });
+
+});

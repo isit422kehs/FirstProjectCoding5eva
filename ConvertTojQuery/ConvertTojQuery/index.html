@@ -13,54 +13,71 @@
 
 
 <body>
-    <div data-role="page" id="pageone">
+    <div data-role="page" id="pageone" data-theme="b">
 
-        <div data-theme="a" data-role="header">
+        <div data-role="header">
             <h3>First Page</h3>
-
         </div>
-
-
 
         <div data-role="content">
-
             <div>
-                <ul data-role="listview" data-autodividers="true" data-theme="a" id="notes"></ul>
+                <ul data-role="listview" data-autodividers="true" data-theme="b" id="notes"></ul>
             </div>
-            
-            <br />
-
         </div>
 
-        <div data-role="footer" data-theme="a">
+        <hr />
+
+        <div data-role="footer">
             <h6>To add a note, click the button below:</h6>
-            <a href="#addPage">Go To Add Page</a>
-            <br />
+            <a href="#add-page">Go to Add Page</a>
+        </div>
+
+        <div data-role="footer">
             <h6>To delete a note, copy the subject then paste after clicking link below</h6>
             <br />
-            <a href="#deletePage"> Go To Delete Page</a>
-            <h1>copyright KEHS 2017</h1>
+            <a href="#delete-page">Go to Delete Page</a>
+        </div>
+
+        <div data-role="footer">
+            <h1>copyright Coding5eva 2017</h1>
+        </div>
+
+    </div>
+
+    <div data-role="page" id="details-page" data-theme="b">
+        <div data-role="header">
+            <h3>Details</h3>
+            <a href="#pageone" class="ui-btn-left" data-transition="slide">Back</a>
+        </div>
+
+        <div data-role="content">
+            <p id="detailParmHere" hidden>change1</p>
+            <p id="showdata">change2</p>
+        </div>
+
+        <div data-role="footer">
+            <h1>copyright Coding5eva 2017</h1>
         </div>
     </div>
 
-
-        <div data-role="page" id="details-page">
-            <div data-theme="a" data-role="header">
-                <h3>
-                    Details
-                </h3>
-                <a href="#pageone" class="ui-btn-left" data-transition="slide">Back</a>
-            </div>
-
-            <div data-role="content" data-theme="b">
-
-                <p id="detailParmHere" hidden>change1</p>
-                <p id="showdata">change2</p>
-            </div>
-
-            <div data-theme="a" data-role="footer" ">
-                <h1>copyright Coding5Eva 2017</h1>
-            </div>
+    <div data-role="page" id="add-page" data-theme="b">
+        <div data-role="header">
+            <h3>Add Note</h3>
+            <a href="#pageone" class="ui-btn-left" data-transition="slide">Back</a>
         </div>
+
+        <div data-role="content">
+            Subject : <input type="text" id="subject" size="10" /><br />
+            Details : <input type="text" id="details" size="50" /><br />
+            Priority : <input type="text" id="priority" size="10" /><br />
+
+            <input type="button" value="Add Note" onclick="add();" />
+            <p id="addNote" />
+        </div>
+
+        <div data-role="footer">
+            <h1>copyright Coding5eva 2017</h1>
+        </div>
+     </div>
 </body>
 </html>
