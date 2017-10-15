@@ -55,5 +55,20 @@ $(document).on('pagebeforeshow ', '#pageone', function () {   // see: https://st
 
     });
 
+    $(document).on('pagebeforeshow', '#details-page', function () {
+
+        var textString = 'fix me';
+        var id = $('#detailParmHere').text();
+
+        $.each(data, function (index, record) {
+            if (id == record.Id) {
+                textString = "Priority:  " + record.Priority + " Subject:  " + record.Subject + " Details:  " + record.Details;
+            }
+        });
+
+        $('#showdata').text(textString);
+
+    });
+
 
 });
