@@ -6,12 +6,12 @@ var data = [{
     "Details": "Electric bill $250"
 }, {
     "Id": 2,
-    "Priority": 1,
+    "Priority": 3,
     "Subject": "Pay Macy's",
     "Details": "Macy's bill $200"
 }, {
     "Id": 3,
-    "Priority": 2,
+    "Priority": 5,
     "Subject": "Pay comcast bill",
     "Details": "Comcast bill $100"
 }, {
@@ -21,7 +21,7 @@ var data = [{
     "Details": "Eggs, apples, milk",
 }, {
     "Id": 5,
-    "Priority": 2,
+    "Priority": 4,
     "Subject": "Do homework",
     "Details": "Finish homework on time to avoid the wrath of Kurt"
 }, {
