@@ -36,6 +36,12 @@ var data = [{
     "Details": "Refresh"
 }]
 
+data.sort(function (a, b) {
+    return a.Priority > b.Priority;
+});
+
+data.sort();
+
 $(document).on('pagebeforeshow ', '#pageone', function () {   // see: https://stackoverflow.com/questions/14468659/jquery-mobile-document-ready-vs-page-events
     var info_view = "";      //string to put HTML in
     $('#notes').empty();  // since I do this everytime the page is redone, I need to remove existing before apending them all again
@@ -67,6 +73,13 @@ $(document).on('pagebeforeshow', '#details-page', function () {
     $('#showdata').text(textString);
 });
 
+$(document).on('pagebeforeshow', '#add-page', function () {
+    
+    // reset #addNote from previous success msg
+    $('#addNote').text('');
+
+});
+
 function addNote() {
     var id = data.length + 1;
     var priority = $('#priority').val();
@@ -80,10 +93,17 @@ function addNote() {
         "Details": details
     };
 
-    //$('#addNote').text('Successfully added new note #' + id);
-
     data.push(newNote);
 
+    $('#addNote').text('Successfully added new note #' + id);
+
+    // sort the list w/ the added new note
+    data.sort(function (a, b) {
+        return a.Priority > b.Priority;
+    });
+    data.sort();
+
+    // empty fields after submit
     $('#priority').val('');
     $('#subject').val('');
     $('#details').val('');
