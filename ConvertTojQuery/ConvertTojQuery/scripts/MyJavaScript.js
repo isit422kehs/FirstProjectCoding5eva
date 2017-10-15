@@ -40,7 +40,6 @@ $(document).on('pagebeforeshow ', '#pageone', function () {   // see: https://st
     var info_view = "";      //string to put HTML in
     $('#notes').empty();  // since I do this everytime the page is redone, I need to remove existing before apending them all again
 
-
     $.each(data, function (index, record) {   // make up each li as an <a> to the details-page
         $('#notes').append('<li><a data-transition="pop" data-parm=' + record.Id + ' href="#details-page">' + record.Priority + ' => ' + record.Subject + '</a></li>');
     });
@@ -52,13 +51,10 @@ $(document).on('pagebeforeshow ', '#pageone', function () {   // see: https://st
         var parm = $(this).attr("data-parm");  // passing in the record.Id
         //do something here with parameter on  details page
         $("#detailParmHere").html(parm);
-
     });
-
 });
 
 $(document).on('pagebeforeshow', '#details-page', function () {
-
     var textString = 'fix me';
     var id = $('#detailParmHere').text();
 
@@ -69,30 +65,27 @@ $(document).on('pagebeforeshow', '#details-page', function () {
     });
 
     $('#showdata').text(textString);
-
 });
 
-$(document).on('pagebeforeshow', '#add-page', function () {
-
+function addNote() {
+    var id = data.length + 1;
+    var priority = $('#priority').val();
     var subject = $('#subject').val();
     var details = $('#details').val();
-    var priority = $('#priority').val();
+    
+    newNote = {
+        "Id": id,
+        "Priority": Number(priority),
+        "Subject": subject,
+        "Details": details
+    };
 
-    $.ajax({
-        type: "POST",
-        url: "api/save",
-        data: {
-            "Subject": subject,
-            "Details": details,
-            "Priority": priority
-        },
-        success: function () {
-            $('#addNote').text("success");
-            showNotes();
-        },
-        error: function (status) {
-            $('#addNote').text(status);
-        }
-    });
+    //$('#addNote').text('Successfully added new note #' + id);
 
-});
+    data.push(newNote);
+
+    $('#priority').val('');
+    $('#subject').val('');
+    $('#details').val('');
+
+}

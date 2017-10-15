@@ -14,7 +14,6 @@
 
 <body>
     <div data-role="page" id="pageone" data-theme="b">
-
         <div data-role="header">
             <h3>First Page</h3>
         </div>
@@ -41,7 +40,6 @@
         <div data-role="footer">
             <h1>copyright Coding5eva 2017</h1>
         </div>
-
     </div>
 
     <div data-role="page" id="details-page" data-theme="b">
@@ -71,7 +69,7 @@
             Details : <input type="text" id="details" size="50" /><br />
             Priority : <input type="text" id="priority" size="10" /><br />
 
-            <input type="button" value="Add Note" onclick="add();" />
+            <input type="button" id="addBtn" value="Add Note" onclick="addNote()"/>
             <p id="addNote" />
         </div>
 
