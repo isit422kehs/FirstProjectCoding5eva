@@ -116,3 +116,48 @@ function addNote() {
     $('#details').val('');
 
 }
+
+$(document).on('pagebeforeshow', '#delete-page', function () {
+    $('#delNote').text('');
+    showDelOptions();
+
+    $('#delSubject').focus(function(){
+        $('#delId').val('');
+        $('#delNote').text('1');
+    });
+
+    $('#delId').focus(function () {
+        $('#delSubject').val('');
+        $('#delNote').text('2');
+    });
+
+
+});
+
+function showDelOptions() {
+    $('#delList').text('');
+    $.each(data, function (index, record) {
+        $('#delList').append('Id: ' + record.Id + ' Subject: ' + record.Subject + '<br />');
+
+    });
+
+}
+
+function delNote() {
+    let sub = $('#delSubject').val();
+    let delID = $('#delId').val();
+
+    $.each(data, function (index, record) {
+
+        if (sub == record.Subject || delID == record.Id) {
+            $('#delNote').text('Your choice with the id of ' + record.Id + ' and subject of ' + record.Subject + ' has been deleted');
+            data.splice(index, 1);
+        }
+
+        $('#delSubject').val('');
+        $('#delId').val();
+        showDelOptions();
+
+    });
+
+}

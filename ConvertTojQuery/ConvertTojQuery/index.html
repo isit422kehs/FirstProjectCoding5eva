@@ -26,15 +26,15 @@
 
         <hr />
 
-        <div data-role="footer">
+        <div>
             <h6>To add a note, click the button below:</h6>
-            <a href="#add-page">Go to Add Page</a>
+            <a data-role="button" data-icon="plus" href="#add-page">Go to Add Page</a>
         </div>
 
-        <div data-role="footer">
-            <h6>To delete a note, copy the subject then paste after clicking link below</h6>
+        <div>
+            <h6>To delete a note, click link below to delete by id or subject</h6>
             <br />
-            <a href="#delete-page">Go to Delete Page</a>
+            <a data-role="button" data-icon="delete" href="#delete-page">Go to Delete Page</a>
         </div>
 
         <div data-role="footer">
@@ -42,7 +42,7 @@
         </div>
     </div>
 
-    <div data-role="page" id="details-page" data-theme="b">
+    <div data-role="page" id="details-page" data-theme="a">
         <div data-role="header">
             <h3>Details</h3>
             <a href="#pageone" class="ui-btn-left" data-transition="slide">Back</a>
@@ -58,7 +58,7 @@
         </div>
     </div>
 
-    <div data-role="page" id="add-page" data-theme="b">
+    <div data-role="page" id="add-page" data-theme="c">
         <div data-role="header">
             <h3>Add Note</h3>
             <a href="#pageone" class="ui-btn-left" data-transition="slide">Back</a>
@@ -69,7 +69,7 @@
             Details : <input type="text" id="details" /><br />
             Priority : <input type="text" id="priority" /><br />
 
-            <input type="button" id="addBtn" value="Add Note" onclick="addNote()"/>
+            <input type="button" data-icon="plus" data-theme="b" id="addBtn" value="Add Note" onclick="addNote()"/>
             <p id="addNote" />
         </div>
 
@@ -77,5 +77,26 @@
             <h1>copyright Coding5eva 2017</h1>
         </div>
      </div>
+
+    <div data-role="page" id="delete-page" data-theme="d">
+        <div data-role="header">
+            <h3>Delete Note</h3>
+            <a href="#pageone" class="ui-btn-left" data-transition="slide">Back</a>
+        </div>
+        
+        <div data-role="content">
+            <p>Pick by Id or the Subject to Delete (if more than 1 item have the same subject, only the first subject would be deleted)</p>
+            <p id="delList"></p>
+            Subject : <input type="text" id="delSubject" /><br />
+            Id : <input type="text" id="delId" /><br />
+
+            <input type="button" data-icon="delete" data-theme="a" id="delBtn" value="Delete Note" onclick="delNote()" />
+            <p id="delNote" />
+        </div>
+
+        <div data-role="footer">
+            <h1>copyright Coding5eva 2017</h1>
+        </div>
+    </div>
 </body>
 </html>
