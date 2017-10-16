@@ -88,6 +88,7 @@ $(document).on('pagebeforeshow', '#add-page', function () {
 });
 
 function addNote() {
+
     var id = data.length + 1;
     var priority = $('#priority').val();
     var subject = $('#subject').val();
@@ -102,7 +103,7 @@ function addNote() {
 
     data.push(newNote);
 
-    $('#addNote').text('Successfully added new note #' + id);
+    $('#addNote').text('Successfully added new note assigned id #' + id);
 
     // sort the list w/ the added new note
     data.sort(function (a, b) {
@@ -123,24 +124,18 @@ $(document).on('pagebeforeshow', '#delete-page', function () {
 
     $('#delSubject').focus(function(){
         $('#delId').val('');
-        $('#delNote').text('1');
     });
 
     $('#delId').focus(function () {
         $('#delSubject').val('');
-        $('#delNote').text('2');
     });
-
-
 });
 
 function showDelOptions() {
     $('#delList').text('');
     $.each(data, function (index, record) {
-        $('#delList').append('Id: ' + record.Id + ' Subject: ' + record.Subject + '<br />');
-
+        $('#delList').append('Id: ' + record.Id + ' / Subject: ' + record.Subject + '<br />');
     });
-
 }
 
 function delNote() {
@@ -155,9 +150,8 @@ function delNote() {
         }
 
         $('#delSubject').val('');
-        $('#delId').val();
+        $('#delId').val('');
         showDelOptions();
 
     });
-
 }
