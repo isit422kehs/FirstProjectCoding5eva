@@ -93,6 +93,7 @@
             <div data-role="header">
                 <h3>First Page</h3>
             </div>
+            
             <div data-role="content">
                 <h2>All Notes</h2>
                 <ul id="notes" />
@@ -100,14 +101,31 @@
                     <ul data-role="listview" data-autodividers="true" data-theme="b" id="notes"></ul>
                 </div>
                 <div>
-        <h2>Search by Subject</h2>
-        <input type="text" id="noteId" size="10" />
-        <input type="button" value="Search" onclick="find();" />
-        <p id="note" />
-    </div><br />
+                    <h2>Search by Subject</h2>
+                    <input type="text" id="noteId" size="10" />
+                    <input type="button" value="Search" onclick="find();" />
+                    <p id="note" />
+                </div>
+                <div>
+                    <h2>Delete a note by Subject</h2>
+                    <input type="text" id="delId" size="10" />
+                    <input type="button" value="Delete" onclick="del();" />
+                    <p id="delNote" />
+                </div><br />
+                <div>
+                    <h2>Add Note</h2>
+                    Subject : <input type="text" id="subject" size="10" /><br />
+                    Details : <input type="text" id="details" size="50" /><br />
+                    Priority : <input type="text" id="priority" size="10" /><br />
+
+                    <input type="button" value="Add Note" onclick="add();" />
+                    <p id="addNote" />
+                </div>
+        
+    <br />
             </div>
             <hr />
-
+            
             <div>
                 <h4>To add a note, click the button below:</h4>
                 <a data-role="button" data-icon="plus" href="#add-page">Go to Add Page</a>
@@ -123,22 +141,9 @@
         </div>
             
         </div>
+  
     
-    <div>
-        <h2>Delete a note by Subject</h2>
-        <input type="text" id="delId" size="10" />
-        <input type="button" value="Delete" onclick="del();" />
-        <p id="delNote" />
-    </div><br />
-    <div>
-        <h2>Add Note</h2>
-        Subject : <input type="text" id="subject" size="10" /><br />
-        Details : <input type="text" id="details" size="50" /><br />
-        Priority : <input type="text" id="priority" size="10" /><br />
-
-        <input type="button" value="Add Note" onclick="add();" />
-        <p id="addNote" />
-    </div>
+    
 
 
 
