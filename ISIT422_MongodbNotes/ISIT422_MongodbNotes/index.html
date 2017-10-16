@@ -1,7 +1,11 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+=======
+    
+>>>>>>> f5e568c7d347b7b520c044c2619b6c125fd6ca4f
     <script>
     var uri = 'api/notes';
     $(document).ready(function () {
@@ -81,6 +85,7 @@
 
     <title>Mongodb Notes</title>
 	<meta charset="utf-8" />
+<<<<<<< HEAD
 </head>
 <body>
     <div>
@@ -108,6 +113,71 @@
         <input type="button" value="Add Note" onclick="add();" />
         <p id="addNote" />
     </div>
+=======
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    
+</head>
+<body>
+    <div>
+        <div data-role="page" id="pageone" data-theme="b">
+            <div data-role="header">
+                <h3>First Page</h3>
+            </div>
+            
+            <div data-role="content">
+                <h2>All Notes</h2>
+                <ul id="notes" />
+                <div>
+                    <ul data-role="listview" data-autodividers="true" data-theme="b" id="notes"></ul>
+                </div>
+                <div>
+                    <h2>Search by Subject</h2>
+                    <input type="text" id="noteId" size="10" />
+                    <input type="button" value="Search" onclick="find();" />
+                    <p id="note" />
+                </div>
+                <div>
+                    <h2>Delete a note by Subject</h2>
+                    <input type="text" id="delId" size="10" />
+                    <input type="button" value="Delete" onclick="del();" />
+                    <p id="delNote" />
+                </div><br />
+                <div>
+                    <h2>Add Note</h2>
+                    Subject : <input type="text" id="subject" size="10" /><br />
+                    Details : <input type="text" id="details" size="50" /><br />
+                    Priority : <input type="text" id="priority" size="10" /><br />
+
+                    <input type="button" value="Add Note" onclick="add();" />
+                    <p id="addNote" />
+                </div>
+        
+    <br />
+            </div>
+            <hr />
+            
+            <div>
+                <h4>To add a note, click the button below:</h4>
+                <a data-role="button" data-icon="plus" href="#add-page">Go to Add Page</a>
+            </div>
+            <div>
+                <h4>To delete a note, click link below to delete by id or subject</h4>
+                <br />
+                <a data-role="button" data-icon="delete" href="#delete-page">Go to Delete Page</a>
+            </div>
+            <div data-role="footer">
+                <h1>copyright Coding5eva 2017</h1>
+            </div>
+        </div>
+            
+        </div>
+  
+    
+    
+>>>>>>> f5e568c7d347b7b520c044c2619b6c125fd6ca4f
 
 
 
