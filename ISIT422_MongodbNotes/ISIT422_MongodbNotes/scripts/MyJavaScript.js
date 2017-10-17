@@ -61,6 +61,17 @@ $(document).on('pagebeforeshow', '#delete-page', function () {
 
 });
 
+function showNotes() {
+    $('#notes').empty();
+    $.getJSON(uri)
+      .done(function (data) {
+
+          $.each(data, function (key, record) {
+              $('#notes').append('<li><a data-transition="pop" data-parm=' + record.Id + ' href="#details-page" class="ui-btn ui-btn-icon-right ui-icon-carat-r">' + record.Priority + ' => ' + record.Subject + '</a></li>');
+          });
+      });
+}
+
 function addNote() {
 
     var subject = $('#subject').val();
@@ -120,17 +131,6 @@ function delNote() {
     });
 
     $('#delId').val('');
-}
-
-function showNotes() {
-    $('#notes').empty();
-    $.getJSON(uri)
-      .done(function (data) {
-
-          $.each(data, function (key, record) {
-              $('#notes').append('<li><a data-transition="pop" data-parm=' + record.Id + ' href="#details-page" data-role="button" >' + record.Priority + ' => ' + record.Subject + '</a></li>');
-          });
-      });
 }
 
 /*
