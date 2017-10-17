@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MongoHQ-Web.config Connection String" description="MongoHQ Connection String used in web.config by the application to access the database." defaultValue="mongodb://db_elizabeth:741123@ds044689.mlab.com:44689/isit422_coding5eva" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\liz\\Git\\FirstProjectCoding5eva\\ISIT422_MongodbNotes\\ISIT422_MongodbNotes\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MongoHQ']/@connectionString" />
+  </parameter>
+</parameters>
