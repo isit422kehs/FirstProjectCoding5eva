@@ -1,27 +1,27 @@
 ﻿var uri = 'api/notes';
-$(document).ready(function () {
-    // Send an AJAX request
-    showNotes();
 
+$(document).ready(function () {
+    $("a").unbind("click").click(function () {
+        alert($(this).attr("href"));
+    });
 });
 
-// from convert project ***********************************************************************************************************************************************
 
-$(document).on('pagebeforeshow ', '#pageone', function () {   // see: https://stackoverflow.com/questions/14468659/jquery-mobile-document-ready-vs-page-events
+$(document).on('pagebeforeshow ', '#pageone', function () {   /* see: https://stackoverflow.com/questions/14468659/jquery-mobile-document-ready-vs-page-events */
     var info_view = "";      //string to put HTML in
-    $('#notes').empty();  // since I do this everytime the page is redone, I need to remove existing before apending them all again
-
-    $.each(data, function (index, record) {   // make up each li as an <a> to the details-page
-        $('#notes').append('<li><a data-transition="pop" data-parm=' + record.Id + ' href="#details-page">' + record.Priority + ' => ' + record.Subject + '</a></li>');
-    });
-
+    
+    showNotes();
     $("#notes").listview('refresh');  // need this so jquery mobile will apply the styling to the newly added li's
+
+    
 
     $("a").on("click", function (event) {    // set up an event, if user clicks any, it writes that items data-parm into the 
         //details page's html so I can get it there
         var parm = $(this).attr("data-parm");  // passing in the record.Id
+        
         //do something here with parameter on  details page
         $("#detailParmHere").html(parm);
+        
     });
 });
 
@@ -36,13 +36,40 @@ $(document).on('pagebeforeshow', '#details-page', function () {
         return this;
     }
 
+    //find(id);
+    textString = id;
+    $.getJSON(uri + '/' + id)
+    
+        .done(function (data) {
+            //$('#note').text(formatItem(data));
+            textString = 'Priority: ' + data.Priority + '\n\nSubject: ' + data.Subject + '\n\nDetails: ' + data.Details;
+        })
+        .fail(function (jqXHR, textStatus, err) {
+            textString = 'Error: ' + err;
+        });
+    
+    $('#showdata').multiline(textString);
+
+    /*
     $.each(data, function (index, record) {
         if (id == record.Id) {
             textString = 'Priority: ' + record.Priority + '\n\nSubject: ' + record.Subject + '\n\nDetails: ' + record.Details;
         }
     });
-
     $('#showdata').multiline(textString);
+    
+
+    $.getJSON(uri)
+      .done(function (data) {
+          // On success, 'data' contains a list of products.
+          $.each(data, function (key, record) {
+              // Add a list item for the product.
+              //$('<li>', { text: formatItem(item) }).appendTo($('#notes'));
+              $('#notes').append('<li><a data-transition="pop" data-parm=' + record.Id + ' href="#details-page">' + record.Priority + ' => ' + record.Subject + '</a></li>');
+          });
+      });
+      */
+
 });
 
 $(document).on('pagebeforeshow', '#add-page', function () {
@@ -52,105 +79,14 @@ $(document).on('pagebeforeshow', '#add-page', function () {
 
 });
 
-function addNote() {
-
-    var id = data.length + 1;
-    var priority = $('#priority').val();
-    var subject = $('#subject').val();
-    var details = $('#details').val();
-
-    newNote = {
-        "Id": id,
-        "Priority": Number(priority),
-        "Subject": subject,
-        "Details": details
-    };
-
-    data.push(newNote);
-
-    $('#addNote').text('Successfully added new note assigned id #' + id);
-
-    // sort the list w/ the added new note
-    data.sort(function (a, b) {
-        return a.Priority > b.Priority;
-    });
-    data.sort();
-
-    // empty fields after submit
-    $('#priority').val('');
-    $('#subject').val('');
-    $('#details').val('');
-
-}
-
 $(document).on('pagebeforeshow', '#delete-page', function () {
     $('#delNote').text('');
     showDelOptions();
 
-    $('#delSubject').focus(function () {
-        $('#delId').val('');
-    });
-
-    $('#delId').focus(function () {
-        $('#delSubject').val('');
-    });
 });
 
-function showDelOptions() {
-    $('#delList').text('');
-    $.each(data, function (index, record) {
-        $('#delList').append('Id: ' + record.Id + ' / Subject: ' + record.Subject + '<br />');
-    });
-}
+function addNote() {
 
-function delNote() {
-    let sub = $('#delSubject').val();
-    let delID = $('#delId').val();
-
-    $.each(data, function (index, record) {
-
-        if (sub == record.Subject || delID == record.Id) {
-            $('#delNote').text('Your choice with the id of ' + record.Id + ' and subject of ' + record.Subject + ' has been deleted');
-            data.splice(index, 1);
-        }
-
-        $('#delSubject').val('');
-        $('#delId').val('');
-        showDelOptions();
-
-    });
-}
-
-// end code from convert project *************************************************************************************************************************************
-
-function showNotes() {
-    $('#notes').html('');
-    $.getJSON(uri)
-      .done(function (data) {
-          // On success, 'data' contains a list of products.
-          $.each(data, function (key, item) {
-              // Add a list item for the product.
-              $('<li>', { text: formatItem(item) }).appendTo($('#notes'));
-          });
-      });
-}
-
-function formatItem(item) {
-    return item.Priority + '> ' + item.Subject + ': ' + item.Details;
-}
-
-function find() {
-    var id = $('#noteId').val();
-    $.getJSON(uri + '/' + id)
-        .done(function (data) {
-            $('#note').text(formatItem(data));
-        })
-        .fail(function (jqXHR, textStatus, err) {
-            $('#note').text('Error: ' + err);
-        });
-}
-
-function add() {
     var subject = $('#subject').val();
     var details = $('#details').val();
     var priority = $('#priority').val();
@@ -164,29 +100,66 @@ function add() {
             "Priority": priority
         },
         success: function () {
-            $('#addNote').text("success");
-            showNotes();
+            $('#addNote').text('Successfully added new note about ' + subject);
+            //showNotes();
         },
         error: function (status) {
             $('#addNote').text(status);
         }
     });
 
+    // empty fields after submit
+    $('#priority').val('');
+    $('#subject').val('');
+    $('#details').val('');
+
 }
 
-function del() {
+function showDelOptions() {
+    $('#delList').text('');
 
-    var id = $('#delId').val();
+    $.getJSON(uri)
+      .done(function (data) {
+          $.each(data, function (key, record) {
+              $('#delList').append('Id: ' + record.Id + ' / Subject: ' + record.Subject + '<br />');
+          });
+      });
+}
+
+function delNote() {
+    
+    let delID = $('#delId').val();
 
     $.ajax({
         type: 'DELETE',
-        url: 'api/delete/' + id,
+        url: 'api/delete/' + delID,
         success: function () {
-            $('#delNote').text('successfully deleted note ' + id);
-            showNotes();
+            $('#delNote').text('successfully deleted note with id of: ' + delID);
+            
+            showDelOptions();
         },
         error: function (status) {
             $('#delNote').text(status);
         }
     });
+
+    $('#delId').val('');
 }
+
+function showNotes() {
+    $('#notes').empty();
+    $.getJSON(uri)
+      .done(function (data) {
+
+          $.each(data, function (key, record) {
+              $('#notes').append('<li><a data-transition="pop" data-parm=' + record.Id + ' href="#details-page">' + record.Priority + ' => ' + record.Subject + '</a></li>');
+          });
+      });
+}
+
+/*
+function formatItem(item) {
+    return item.Priority + '> ' + item.Subject + ': ' + item.Details;
+}
+*/
+
