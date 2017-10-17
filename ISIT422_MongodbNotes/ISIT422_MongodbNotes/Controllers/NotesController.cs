@@ -1,6 +1,7 @@
 ﻿using ISIT422_MongodbNotes.Models;
 using MongoDB.Bson;
 using MongoDB.Driver;
+using MongoDB.Driver.Builders;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -73,7 +74,7 @@ namespace ISIT422_MongodbNotes.Controllers
                 throw ex;
             }
 
-            var note = noteList.FirstOrDefault((p) => p.Subject == id);
+            var note = noteList.FirstOrDefault((p) => p.Id == id);
             if (note == null)
             {
                 return NotFound();

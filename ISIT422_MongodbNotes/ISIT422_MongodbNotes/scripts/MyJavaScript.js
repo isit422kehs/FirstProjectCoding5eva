@@ -1,9 +1,11 @@
 ﻿var uri = 'api/notes';
+let parm = "";
+let textString = 'fix me';
 
-$(document).ready(function () {
-    $("a").unbind("click").click(function () {
-        alert($(this).attr("href"));
-    });
+$(document).on('click', 'a', function () {
+    parm = $(this).attr("data-parm");
+    $("#detailParmHere").html(parm);
+    
 });
 
 
@@ -13,11 +15,9 @@ $(document).on('pagebeforeshow ', '#pageone', function () {   /* see: https://st
     showNotes();
     $("#notes").listview('refresh');  // need this so jquery mobile will apply the styling to the newly added li's
 
-    
-
     $("a").on("click", function (event) {    // set up an event, if user clicks any, it writes that items data-parm into the 
         //details page's html so I can get it there
-        var parm = $(this).attr("data-parm");  // passing in the record.Id
+        //var parm = $(this).attr("data-parm");  // passing in the record.Id
         
         //do something here with parameter on  details page
         $("#detailParmHere").html(parm);
@@ -25,8 +25,7 @@ $(document).on('pagebeforeshow ', '#pageone', function () {   /* see: https://st
     });
 });
 
-$(document).on('pagebeforeshow', '#details-page', function () {
-    var textString = 'fix me';
+$(document).on('pagebeforeshow', '#details-page', function (event) {
     var id = $('#detailParmHere').text();
 
     // to make newline space
@@ -35,13 +34,9 @@ $(document).on('pagebeforeshow', '#details-page', function () {
         this.html(this.html().replace(/\n/g, '<br/>'));
         return this;
     }
-
-    //find(id);
-    textString = id;
-    $.getJSON(uri + '/' + id)
     
+    $.getJSON(uri + '/' + id)
         .done(function (data) {
-            //$('#note').text(formatItem(data));
             textString = 'Priority: ' + data.Priority + '\n\nSubject: ' + data.Subject + '\n\nDetails: ' + data.Details;
         })
         .fail(function (jqXHR, textStatus, err) {
@@ -49,27 +44,7 @@ $(document).on('pagebeforeshow', '#details-page', function () {
         });
     
     $('#showdata').multiline(textString);
-
-    /*
-    $.each(data, function (index, record) {
-        if (id == record.Id) {
-            textString = 'Priority: ' + record.Priority + '\n\nSubject: ' + record.Subject + '\n\nDetails: ' + record.Details;
-        }
-    });
-    $('#showdata').multiline(textString);
     
-
-    $.getJSON(uri)
-      .done(function (data) {
-          // On success, 'data' contains a list of products.
-          $.each(data, function (key, record) {
-              // Add a list item for the product.
-              //$('<li>', { text: formatItem(item) }).appendTo($('#notes'));
-              $('#notes').append('<li><a data-transition="pop" data-parm=' + record.Id + ' href="#details-page">' + record.Priority + ' => ' + record.Subject + '</a></li>');
-          });
-      });
-      */
-
 });
 
 $(document).on('pagebeforeshow', '#add-page', function () {
@@ -128,7 +103,7 @@ function showDelOptions() {
 
 function delNote() {
     
-    let delID = $('#delId').val();
+    let delID = $('#delId').val().trim();
 
     $.ajax({
         type: 'DELETE',
@@ -152,7 +127,7 @@ function showNotes() {
       .done(function (data) {
 
           $.each(data, function (key, record) {
-              $('#notes').append('<li><a data-transition="pop" data-parm=' + record.Id + ' href="#details-page">' + record.Priority + ' => ' + record.Subject + '</a></li>');
+              $('#notes').append('<li><a data-transition="pop" data-parm=' + record.Id + ' href="#details-page" data-role="button" >' + record.Priority + ' => ' + record.Subject + '</a></li>');
           });
       });
 }

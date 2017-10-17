@@ -145,4 +145,3 @@ C:\Users\AkaTsuki\Desktop\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT42
 C:\Users\AkaTsuki\Desktop\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes\bin\System.Web.Http.WebHost.xml
 C:\Users\AkaTsuki\Desktop\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes\obj\Debug\ISIT422_MongodbNotes.dll
 C:\Users\AkaTsuki\Desktop\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes\obj\Debug\ISIT422_MongodbNotes.pdb
-C:\Users\AkaTsuki\Desktop\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes\obj\Debug\ISIT422_MongodbNotes.csprojResolveAssemblyReference.cache
