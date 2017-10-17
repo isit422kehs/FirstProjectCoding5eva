@@ -1,6 +1,5 @@
 ﻿var uri = 'api/notes';
 let parm = "";
-let textString = 'fix me';
 
 $(document).on('click', 'a', function () {
     parm = $(this).attr("data-parm");
@@ -25,9 +24,9 @@ $(document).on('pagebeforeshow ', '#pageone', function () {   /* see: https://st
     });
 });
 
-$(document).on('pagebeforeshow', '#details-page', function (event) {
+$(document).on('pagebeforeshow pageshow', '#details-page', function () {
     var id = $('#detailParmHere').text();
-
+    let textString = 'fix me';
     // to make newline space
     $.fn.multiline = function (text) {
         this.text(text);
@@ -38,12 +37,14 @@ $(document).on('pagebeforeshow', '#details-page', function (event) {
     $.getJSON(uri + '/' + id)
         .done(function (data) {
             textString = 'Priority: ' + data.Priority + '\n\nSubject: ' + data.Subject + '\n\nDetails: ' + data.Details;
+            $('#showdata').multiline(textString);
         })
         .fail(function (jqXHR, textStatus, err) {
             textString = 'Error: ' + err;
+            $('#showdata').multiline(textString);
         });
     
-    $('#showdata').multiline(textString);
+    //$('#showdata').multiline(textString);
     
 });
 
