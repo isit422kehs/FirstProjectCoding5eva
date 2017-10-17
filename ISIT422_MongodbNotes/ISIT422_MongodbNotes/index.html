@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <script>
+    var uri = 'api/notes';
+    $(document).ready(function () {
+        // Send an AJAX request
+        showNotes();
+      
+    });
+
+    function showNotes() {
+        $('#notes').html('');
+        $.getJSON(uri)
+          .done(function (data) {
+              // On success, 'data' contains a list of products.
+              $.each(data, function (key, item) {
+                  // Add a list item for the product.
+                  $('<li>', { text: formatItem(item) }).appendTo($('#notes'));
+              });
+          });
+    }
+
+    function formatItem(item) {
+      return item.Priority + '> ' + item.Subject + ': ' + item.Details;
+    }
+
+    function find() {
+        var id = $('#noteId').val();
+        $.getJSON(uri + '/' + id)
+            .done(function (data) {
+                $('#note').text(formatItem(data));
+            })
+            .fail(function (jqXHR, textStatus, err) {
+                $('#note').text('Error: ' + err);
+            });
+    }
+
+    function add() {
+        var subject = $('#subject').val();
+        var details = $('#details').val();
+        var priority = $('#priority').val();
+
+        $.ajax({
+            type: "POST",
+            url: "api/save",
+            data: {
+                "Subject": subject,
+                "Details": details,
+                "Priority": priority
+            },
+            success: function () {
+                $('#addNote').text("success");
+                showNotes();
+            },
+            error: function (status) {
+                $('#addNote').text(status);
+            }
+        });
+        
+    }
+
+    function del() {
+
+        var id = $('#delId').val();
+
+        $.ajax({
+            type: 'DELETE',
+            url: 'api/delete/' + id,
+            success: function () {
+                $('#delNote').text('successfully deleted note ' + id);
+                showNotes();
+            },
+            error: function (status) {
+                $('#delNote').text(status);
+            }
+        });
+    }
+    </script>
+
+    <title>Mongodb Notes</title>
+	<meta charset="utf-8" />
+<<<<<<< HEAD
+
+=======
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    
+>>>>>>> 47720bb35fee92336b571ca55ffdb448f97d77f8
+</head>
+<body>
+    <div>
+        <div data-role="page" id="pageone" data-theme="b">
+            <div data-role="header">
+                <h3>First Page</h3>
+            </div>
+            <h2>All Notes</h2>
+            <ul id="notes" />
+            <div data-role="content">
+                
+                <div>
+                    <ul data-role="listview" data-autodividers="true" data-theme="b" id="notes"></ul>
+                </div>
+                <div>
+                    <h2>Search by Subject</h2>
+                    <input type="text" id="noteId" size="10" />
+                    <input type="button" value="Search" onclick="find();" />
+                    <p id="note" />
+                </div>
+                <div>
+                    <h2>Delete a note by Subject</h2>
+                    <input type="text" id="delId" size="10" />
+                    <input type="button" value="Delete" onclick="del();" />
+                    <p id="delNote" />
+                </div><br />
+                <div>
+                    <h2>Add Note</h2>
+                    Subject : <input type="text" id="subject" size="10" /><br />
+                    Details : <input type="text" id="details" size="50" /><br />
+                    Priority : <input type="text" id="priority" size="10" /><br />
+
+                    <input type="button" value="Add Note" onclick="add();" />
+                    <p id="addNote" />
+                </div>
+        
+    <br />
+            </div>
+            <hr />
+            
+            <div>
+                <h4>To add a note, click the button below:</h4>
+                <a data-role="button" data-icon="plus" href="#add-page">Go to Add Page</a>
+            </div>
+            <div>
+                <h4>To delete a note, click link below to delete by id or subject</h4>
+                <br />
+                <a data-role="button" data-icon="delete" href="#delete-page">Go to Delete Page</a>
+            </div>
+            <div data-role="footer">
+                <h1>copyright Coding5eva 2017</h1>
+            </div>
+        </div>
+            
+        </div>
+  
+   
+
+</body>
+</html>
