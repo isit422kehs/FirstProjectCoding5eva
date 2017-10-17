@@ -1,90 +1,18 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    
-    <script>
-    var uri = 'api/notes';
-    $(document).ready(function () {
-        // Send an AJAX request
-        showNotes();
-      
-    });
 
-    function showNotes() {
-        $('#notes').html('');
-        $.getJSON(uri)
-          .done(function (data) {
-              // On success, 'data' contains a list of products.
-              $.each(data, function (key, item) {
-                  // Add a list item for the product.
-                  $('<li>', { text: formatItem(item) }).appendTo($('#notes'));
-              });
-          });
-    }
-
-    function formatItem(item) {
-      return item.Priority + '> ' + item.Subject + ': ' + item.Details;
-    }
-
-    function find() {
-        var id = $('#noteId').val();
-        $.getJSON(uri + '/' + id)
-            .done(function (data) {
-                $('#note').text(formatItem(data));
-            })
-            .fail(function (jqXHR, textStatus, err) {
-                $('#note').text('Error: ' + err);
-            });
-    }
-
-    function add() {
-        var subject = $('#subject').val();
-        var details = $('#details').val();
-        var priority = $('#priority').val();
-
-        $.ajax({
-            type: "POST",
-            url: "api/save",
-            data: {
-                "Subject": subject,
-                "Details": details,
-                "Priority": priority
-            },
-            success: function () {
-                $('#addNote').text("success");
-                showNotes();
-            },
-            error: function (status) {
-                $('#addNote').text(status);
-            }
-        });
-        
-    }
-
-    function del() {
-
-        var id = $('#delId').val();
-
-        $.ajax({
-            type: 'DELETE',
-            url: 'api/delete/' + id,
-            success: function () {
-                $('#delNote').text('successfully deleted note ' + id);
-                showNotes();
-            },
-            error: function (status) {
-                $('#delNote').text(status);
-            }
-        });
-    }
-    </script>
-
-    <title>Mongodb Notes</title>
+    <title>Mongodb Notes App</title>
 	<meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
-    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="Scripts/MyJavaScript.js"></script>
+
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/themes/kehsSprint6.min.css" />
+    <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
     
 </head>
 <body>
