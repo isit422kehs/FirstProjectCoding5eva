@@ -27,12 +27,12 @@ namespace ISIT422_MongodbNotes.Controllers
         public HttpResponseMessage Delete(string id)
         {
             bool found = true;
-            string subject = id;
+            string noteId = id;
             try
             {
                 mongoDatabase = RetreiveMongohqDb();
                 var mongoCollection = mongoDatabase.GetCollection("Notes");
-                var query = Query.EQ("Subject", subject);
+                var query = Query.EQ("_id", noteId);
                 WriteConcernResult results = mongoCollection.Remove(query);
 
                 if (results.DocumentsAffected < 1)
