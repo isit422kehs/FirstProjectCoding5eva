@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="IIS Web Application Name" description="" value="ISIT422Product-Notes20171005071252" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\liz\\Git\\FirstProjectCoding5eva\\ConvertTojQuery\\ConvertTojQuery\\obj\\Release\\Package\\PackageTmp$" />
-    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\liz\\Git\\FirstProjectCoding5eva\\ConvertTojQuery\\ConvertTojQuery\\obj\\Release\\Package\\PackageTmp$" />
-  </parameter>
-</parameters>
