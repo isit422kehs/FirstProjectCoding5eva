@@ -35,3 +35,6 @@ C:\Users\AkaTsuki\Desktop\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT42
 C:\Users\AkaTsuki\Desktop\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes.Tests\obj\Debug\ISIT422_MongodbNotes.Tests.csprojResolveAssemblyReference.cache
 C:\Users\AkaTsuki\Desktop\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes.Tests\obj\Debug\ISIT422_MongodbNotes.Tests.dll
 C:\Users\AkaTsuki\Desktop\GIT\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes.Tests\obj\Debug\ISIT422_MongodbNotes.Tests.pdb
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes.Tests\obj\Debug\ISIT422_MongodbNotes.Tests.csprojResolveAssemblyReference.cache
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes.Tests\obj\Debug\ISIT422_MongodbNotes.Tests.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_MongodbNotes\ISIT422_MongodbNotes.Tests\obj\Debug\ISIT422_MongodbNotes.Tests.pdb
