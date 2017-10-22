@@ -213,9 +213,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\DeleteController.cs" />
     <Compile Include="Controllers\NotesController.cs" />
-    <Compile Include="Controllers\SaveController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

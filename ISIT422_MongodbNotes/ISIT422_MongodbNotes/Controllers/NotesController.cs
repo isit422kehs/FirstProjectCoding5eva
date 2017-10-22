@@ -16,7 +16,7 @@ namespace ISIT422_MongodbNotes.Controllers
     public class NotesController : ApiController
     {
         //string collectionName = "Notes";  // production
-        string collectionName = "NotesTest";  // testing
+        string collectionName = "TestCollection";  // testing
 
         bool testing = false;
         List<Note> noteList = new List<Note>();
@@ -39,16 +39,17 @@ namespace ISIT422_MongodbNotes.Controllers
         MongoDatabase mongoDatabase;
 
         public IEnumerable<Note> GetAllNotes()
+
         {
             if (!testing)  // if not testing, read data from real db
             {
                 mongoDatabase = RetreiveMongohqDb();
 
 
-
                 try
                 {
-                    var mongoList = mongoDatabase.GetCollection("Notes").FindAll().AsEnumerable();
+                    //var mongoList = mongoDatabase.GetCollection("Notes").FindAll().AsEnumerable(); //production
+                    var mongoList = mongoDatabase.GetCollection(collectionName).FindAll().AsEnumerable();//test
                     noteList = (from note in mongoList
                                 select new Note
                                 {
@@ -64,8 +65,8 @@ namespace ISIT422_MongodbNotes.Controllers
                     throw new ApplicationException("failed to get data from Mongo");
                 }
             }
+
             noteList.Sort(); // comment this out until you implement the IComparable<Note>
-                             // interface definition to your Note class,
             return noteList;  // ASP API will convert a List of Note objects to json
         }
 
@@ -80,7 +81,8 @@ namespace ISIT422_MongodbNotes.Controllers
 
                 try
                 {
-                    var mongoList = mongoDatabase.GetCollection("Notes").FindAll().AsEnumerable();
+                   // var mongoList = mongoDatabase.GetCollection("Notes").FindAll().AsEnumerable();//prod
+                    var mongoList = mongoDatabase.GetCollection(collectionName).FindAll().AsEnumerable();//test
                     noteList = (from nextNote in mongoList
                                 select new Note
                                 {
@@ -96,7 +98,7 @@ namespace ISIT422_MongodbNotes.Controllers
                     throw ex;
                 }
             }
-            var note = noteList.FirstOrDefault((p) => p.Id == id);
+            var note = noteList.FirstOrDefault((p) => p.Subject == id);
             if (note == null)
             {
                 return NotFound();
@@ -104,12 +106,89 @@ namespace ISIT422_MongodbNotes.Controllers
             return Ok(note);
         }
 
+
+        [HttpDelete]
+        public HttpResponseMessage DELETE(string id)
+        {
+            bool found = true;
+            string noteId = id;//
+            try
+            {
+                mongoDatabase = RetreiveMongohqDb();
+                //var mongoCollection = mongoDatabase.GetCollection("Notes"); //production
+                var mongoCollection = mongoDatabase.GetCollection(collectionName);//test
+                var query = Query.EQ("_id", noteId); //
+                WriteConcernResult results = mongoCollection.Remove(query);
+
+                
+                if (results.DocumentsAffected < 1)
+                {
+                    found = false;
+                }
+            }
+            catch (Exception ex)
+            {
+                found = false;
+            }
+
+            if (!found)
+            {
+                HttpResponseMessage badResponse = new HttpResponseMessage();
+                badResponse.StatusCode = HttpStatusCode.BadRequest;
+                return badResponse;
+            }
+            else
+            {
+                HttpResponseMessage goodResponse = new HttpResponseMessage();
+                goodResponse.StatusCode = HttpStatusCode.OK;
+                return goodResponse;
+            }
+        }
+
+
+        [HttpPost]
+        public Note Save(Note newNote)
+        {
+            mongoDatabase = RetreiveMongohqDb();
+           // var noteList = mongoDatabase.GetCollection("Notes");//prod
+            var noteList = mongoDatabase.GetCollection(collectionName); //test
+            WriteConcernResult result;
+            bool hasError = false;
+            if (string.IsNullOrEmpty(newNote.Id))
+            {
+                newNote.Id = ObjectId.GenerateNewId().ToString();
+                result = noteList.Insert<Note>(newNote);
+                hasError = result.HasLastErrorMessage;
+            }
+            else
+            {
+                IMongoQuery query = Query.EQ("_id", newNote.Id);
+                IMongoUpdate update = Update
+                    .Set("Subject", newNote.Subject)
+                    .Set("Details", newNote.Details)
+                    .Set("Priority", newNote.Priority);
+                result = noteList.Update(query, update);
+                hasError = result.HasLastErrorMessage;
+            }
+
+            if (!hasError)
+            {
+                return newNote;
+            }
+            else
+            {
+                throw new HttpResponseException(HttpStatusCode.InternalServerError);
+            }
+        }
+
+
         private MongoDatabase RetreiveMongohqDb()
         {
-            MongoUrl myMongoURL = new MongoUrl(ConfigurationManager.ConnectionStrings["MongoHQ"].ConnectionString);
+            string connString = "mongodb://db_elizabeth:741123@ds044689.mlab.com:44689/isit422_coding5eva";
+            MongoUrl myMongoURL = new MongoUrl(connString);
             MongoClient mongoClient = new MongoClient(myMongoURL);
             MongoServer server = mongoClient.GetServer();
-            return server.GetDatabase("isit422_coding5eva");
+            return mongoClient.GetServer().GetDatabase("isit422_coding5eva");
         }
     }
 }
