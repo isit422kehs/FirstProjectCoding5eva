@@ -34,8 +34,6 @@ namespace ISIT422_MongodbNotes.Controllers
         }
 
 
-
-
         MongoDatabase mongoDatabase;
 
         public IEnumerable<Note> GetAllNotes()
@@ -45,11 +43,9 @@ namespace ISIT422_MongodbNotes.Controllers
             {
                 mongoDatabase = RetreiveMongohqDb();
 
-
                 try
                 {
-                    //var mongoList = mongoDatabase.GetCollection("Notes").FindAll().AsEnumerable(); //production
-                    var mongoList = mongoDatabase.GetCollection(collectionName).FindAll().AsEnumerable();//test
+                    var mongoList = mongoDatabase.GetCollection(collectionName).FindAll().AsEnumerable();
                     noteList = (from note in mongoList
                                 select new Note
                                 {
@@ -70,19 +66,16 @@ namespace ISIT422_MongodbNotes.Controllers
             return noteList;  // ASP API will convert a List of Note objects to json
         }
 
-    
 
-    public IHttpActionResult GetNote(string id)  // make sure its string
+        public IHttpActionResult GetNote(string id)  // make sure its string
         {
             if (!testing)
             {
                 mongoDatabase = RetreiveMongohqDb();
 
-
                 try
                 {
-                   // var mongoList = mongoDatabase.GetCollection("Notes").FindAll().AsEnumerable();//prod
-                    var mongoList = mongoDatabase.GetCollection(collectionName).FindAll().AsEnumerable();//test
+                    var mongoList = mongoDatabase.GetCollection(collectionName).FindAll().AsEnumerable();
                     noteList = (from nextNote in mongoList
                                 select new Note
                                 {
@@ -108,27 +101,32 @@ namespace ISIT422_MongodbNotes.Controllers
 
 
         [HttpDelete]
-        public HttpResponseMessage DELETE(string id)
+        public HttpResponseMessage Delete(string id)
         {
             bool found = true;
-            string noteId = id;//
-            try
+            string noteId = id;
+
+            if (!testing)
             {
                 mongoDatabase = RetreiveMongohqDb();
-                //var mongoCollection = mongoDatabase.GetCollection("Notes"); //production
-                var mongoCollection = mongoDatabase.GetCollection(collectionName);//test
-                var query = Query.EQ("_id", noteId); //
-                WriteConcernResult results = mongoCollection.Remove(query);
-
                 
-                if (results.DocumentsAffected < 1)
+                try
                 {
+                    mongoDatabase = RetreiveMongohqDb();
+                    var mongoCollection = mongoDatabase.GetCollection(collectionName);
+                    var query = Query.EQ("Subject", noteId);
+                    WriteConcernResult results = mongoCollection.Remove(query);
+
+                    if (results.DocumentsAffected < 1)
+                    {
+                        found = false;
+                    }
+                }
+                catch (Exception ex)
+                {
+
                     found = false;
                 }
-            }
-            catch (Exception ex)
-            {
-                found = false;
             }
 
             if (!found)
@@ -142,7 +140,7 @@ namespace ISIT422_MongodbNotes.Controllers
                 HttpResponseMessage goodResponse = new HttpResponseMessage();
                 goodResponse.StatusCode = HttpStatusCode.OK;
                 return goodResponse;
-            }
+            }            
         }
 
 
@@ -150,8 +148,7 @@ namespace ISIT422_MongodbNotes.Controllers
         public Note Save(Note newNote)
         {
             mongoDatabase = RetreiveMongohqDb();
-           // var noteList = mongoDatabase.GetCollection("Notes");//prod
-            var noteList = mongoDatabase.GetCollection(collectionName); //test
+            var noteList = mongoDatabase.GetCollection(collectionName);
             WriteConcernResult result;
             bool hasError = false;
             if (string.IsNullOrEmpty(newNote.Id))

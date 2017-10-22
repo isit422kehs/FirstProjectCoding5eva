@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Threading.Tasks;
 
 using System.Configuration;
@@ -65,9 +66,6 @@ namespace ISIT422_MongodbNotes.Tests
             Assert.AreEqual(testNotes.Count, result.Count);
         }
 
-
-
-
         //=======================================================================
         // test 2nd API   GetNote(string id)
         [TestMethod]
@@ -81,7 +79,6 @@ namespace ISIT422_MongodbNotes.Tests
             var contentResult = result as OkNegotiatedContentResult<Note>;
 
             Assert.AreEqual(testNotes[2].Subject, contentResult.Content.Subject);
-
         }
 
         [TestMethod]
@@ -92,10 +89,67 @@ namespace ISIT422_MongodbNotes.Tests
             var controller = new NotesController(); // use other constructors
 
             IHttpActionResult result = controller.GetNote("Test2");
-            var contentResult = result as OkNegotiatedContentResult<Note>; ;
+            var contentResult = result as OkNegotiatedContentResult<Note>;
 
             Assert.AreEqual(testNotes[2].Subject, contentResult.Content.Subject);
+        }
 
+        //=======================================================================
+        // test API Get one note that doesn't exist, assert that not found is true
+        [TestMethod]
+        // first test local logic, using fake data
+        public void GetFakeNote_ShouldReturnNotFound()
+        {
+            List<Note> testNotes = GenerateFakeDataList();
+            var controller = new NotesController(testNotes); // use 1 of 2 constructors
+
+            IHttpActionResult result = controller.GetNote("Test5-Silvia");
+
+            Assert.IsInstanceOfType(result, typeof(NotFoundResult));
+        }
+
+        [TestMethod]
+        // now test against test data in mongo
+        public void GetMongoNote_ShouldReturnNotFound()
+        {
+            List<Note> testNotes = GenerateFakeDataList();
+            var controller = new NotesController(); // use other constructors
+
+            IHttpActionResult result = controller.GetNote("Test5-Silvia");
+
+            Assert.IsInstanceOfType(result, typeof(NotFoundResult));
+
+        }
+
+        //=======================================================================
+        // test 4th API   Delete(string id)
+        [TestMethod]
+        // first test local logic, using fake data
+        public void GetFakeNote_ShouldFindNoteAndDelete()
+        {
+            var controller = new NotesController(); // use 1 of 2 constructors
+            controller.Request = new HttpRequestMessage();
+            controller.Configuration = new HttpConfiguration();
+
+            var fakeNoteSubj = "Test1";
+            var response = controller.Delete(fakeNoteSubj);
+
+            Assert.AreEqual(response.StatusCode, HttpStatusCode.OK);
+        }
+
+        [TestMethod]
+        // now test against test data in mongo
+        public void GetMongoNote_ShouldFindNoteAndDelete()
+        {
+            List<Note> testNotes = GenerateFakeDataList();
+            var controller = new NotesController(testNotes); // use other constructor
+            controller.Request = new HttpRequestMessage();
+            controller.Configuration = new HttpConfiguration();
+
+            var noteSubj = "Test1";
+            var response = controller.Delete(noteSubj);
+
+            Assert.AreEqual(response.StatusCode, HttpStatusCode.OK);
         }
     }
 }
