@@ -154,6 +154,7 @@ namespace ISIT422_MongodbNotes.Tests
         [TestMethod]
         public void AddFakeNote_ShouldAddNote()
         {
+
             var controller = new NotesController(GenerateFakeDataList());
             Note addNote = new Note();
             addNote.Id = "asdf";
@@ -166,12 +167,12 @@ namespace ISIT422_MongodbNotes.Tests
             IHttpActionResult result = controller.GetNote("Test1");
             //var delete = controller.Delete("Test1");
             var result2 = result as OkNegotiatedContentResult<Note>;
-            Assert.AreEqual(addNote.StatusCode, result2.Content.StatusCode);
-            
+            Assert.AreEqual(response.Subject, result2.Content.Subject);
         }
         [TestMethod]
         public void AddMongoNote_ShouldAddRecord()
         {
+
             var controller = new NotesController();
             Note addNote = new Note();
             addNote.Id = "";
@@ -185,8 +186,8 @@ namespace ISIT422_MongodbNotes.Tests
             var delete = controller.Delete("Test1 ");
             var result2 = result as OkNegotiatedContentResult<Note>;
 
-            Assert.AreEqual(addNote.StatusCode, result2.Content.StatusCode);
+            Assert.AreEqual(response.Subject, result2.Content.Subject);
         }
-        
+
     }
 }
