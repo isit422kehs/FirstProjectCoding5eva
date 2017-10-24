@@ -1,0 +1,144 @@
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\obj\Debug\ISIT422_Product-Notes.csprojResolveAssemblyReference.cache
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\csc.exe
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\csc.exe.config
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\csc.rsp
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\csi.exe
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\csi.rsp
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\System.AppContext.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\vbc.exe
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\vbc.exe.config
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\vbc.rsp
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\VBCSCompiler.exe
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\ISIT422_Product-Notes.dll.config
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\ISIT422_Product-Notes.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\ISIT422_Product-Notes.pdb
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\Newtonsoft.Json.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Net.Http.Formatting.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Http.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Http.WebHost.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\Newtonsoft.Json.xml
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Net.Http.Formatting.xml
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Http.xml
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Http.WebHost.xml
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\obj\Debug\ISIT422_Product-Notes.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\obj\Debug\ISIT422_Product-Notes.pdb
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\csc.exe
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\csc.exe.config
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\csc.rsp
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\csi.exe
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\csi.rsp
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\System.AppContext.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\vbc.exe
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\vbc.exe.config
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\vbc.rsp
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\VBCSCompiler.exe
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\ISIT422_Product-Notes.dll.config
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\ISIT422_Product-Notes.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\ISIT422_Product-Notes.pdb
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\Newtonsoft.Json.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Net.Http.Formatting.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Http.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Http.WebHost.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\Newtonsoft.Json.xml
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Net.Http.Formatting.xml
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Http.xml
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Http.WebHost.xml
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\obj\Debug\ISIT422_Product-Notes.csprojResolveAssemblyReference.cache
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\obj\Debug\ISIT422_Product-Notes.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\obj\Debug\ISIT422_Product-Notes.pdb
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\csc.exe
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\csc.exe.config
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\csc.rsp
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\csi.exe
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\csi.rsp
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\System.AppContext.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\vbc.exe
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\vbc.exe.config
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\vbc.rsp
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\VBCSCompiler.exe
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\ISIT422_Product-Notes.dll.config
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\ISIT422_Product-Notes.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\ISIT422_Product-Notes.pdb
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\Newtonsoft.Json.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Net.Http.Formatting.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Http.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Http.WebHost.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\Newtonsoft.Json.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Net.Http.Formatting.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Http.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Http.WebHost.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\obj\Debug\ISIT422_Product-Notes.csprojResolveAssemblyReference.cache
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\obj\Debug\ISIT422_Product-Notes.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\obj\Debug\ISIT422_Product-Notes.pdb
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\Antlr3.Runtime.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Helpers.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Mvc.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Optimization.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Razor.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.WebPages.Deployment.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.WebPages.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.WebPages.Razor.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\WebGrease.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\Antlr3.Runtime.pdb
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Helpers.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Mvc.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Optimization.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.Razor.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.WebPages.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.WebPages.Deployment.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ISIT422_Product-Notes\ISIT422_Product-Notes\bin\System.Web.WebPages.Razor.xml
