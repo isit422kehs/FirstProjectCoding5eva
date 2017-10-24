@@ -1,0 +1,205 @@
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\ApplicationInsights.config
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\roslyn\csc.exe
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\roslyn\System.Collections.Immutable.dll
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\roslyn\vbc.exe
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\roslyn\VBCSCompiler.exe
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\roslyn\VBCSCompiler.exe.config
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\ConvertTojQuery.dll.config
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\ConvertTojQuery.dll
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\ConvertTojQuery.pdb
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.Web.dll
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.WindowsServer.dll
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.ApplicationInsights.dll
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\Newtonsoft.Json.dll
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\System.Net.Http.Formatting.dll
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\System.Web.Http.dll
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\System.Web.Http.WebHost.dll
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.Web.xml
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.WindowsServer.xml
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.ApplicationInsights.xml
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\Newtonsoft.Json.xml
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\System.Net.Http.Formatting.xml
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\System.Web.Http.xml
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\bin\System.Web.Http.WebHost.xml
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\obj\Debug\ConvertTojQuery.csprojResolveAssemblyReference.cache
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\obj\Debug\ConvertTojQuery.dll
+c:\users\misty\onedrive\documents\visual studio 2015\Projects\ConvertTojQuery\ConvertTojQuery\obj\Debug\ConvertTojQuery.pdb
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\ApplicationInsights.config
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\csc.exe
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\vbc.exe
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\VBCSCompiler.exe
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\ConvertTojQuery.dll.config
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\ConvertTojQuery.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\ConvertTojQuery.pdb
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.Web.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Newtonsoft.Json.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Net.Http.Formatting.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Web.Http.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Web.Http.WebHost.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.Web.xml
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Newtonsoft.Json.xml
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Net.Http.Formatting.xml
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Web.Http.xml
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Web.Http.WebHost.xml
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\obj\Debug\ConvertTojQuery.csprojResolveAssemblyReference.cache
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\obj\Debug\ConvertTojQuery.dll
+C:\Users\Misty\Documents\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\obj\Debug\ConvertTojQuery.pdb
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\ApplicationInsights.config
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\csc.exe
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\vbc.exe
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\VBCSCompiler.exe
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\ConvertTojQuery.dll.config
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\ConvertTojQuery.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\ConvertTojQuery.pdb
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.Web.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.ApplicationInsights.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Newtonsoft.Json.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Net.Http.Formatting.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Web.Http.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Web.Http.WebHost.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.Web.xml
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.ApplicationInsights.xml
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Newtonsoft.Json.xml
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Net.Http.Formatting.xml
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Web.Http.xml
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Web.Http.WebHost.xml
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\obj\Debug\ConvertTojQuery.csprojResolveAssemblyReference.cache
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\obj\Debug\ConvertTojQuery.dll
+C:\Users\liz\Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\obj\Debug\ConvertTojQuery.pdb
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\ApplicationInsights.config
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\csc.exe
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\vbc.exe
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\VBCSCompiler.exe
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\ConvertTojQuery.dll.config
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\ConvertTojQuery.dll
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\ConvertTojQuery.pdb
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.Web.dll
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Newtonsoft.Json.dll
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Net.Http.Formatting.dll
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Web.Http.dll
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Web.Http.WebHost.dll
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.Web.xml
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Newtonsoft.Json.xml
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Net.Http.Formatting.xml
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Web.Http.xml
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Web.Http.WebHost.xml
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\obj\Debug\ConvertTojQuery.csprojResolveAssemblyReference.cache
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\obj\Debug\ConvertTojQuery.dll
+C:\Users\Hyejin\Documents\isit422Git\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\obj\Debug\ConvertTojQuery.pdb
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\ApplicationInsights.config
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\csc.exe
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\vbc.exe
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\VBCSCompiler.exe
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\ConvertTojQuery.dll.config
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\ConvertTojQuery.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\ConvertTojQuery.pdb
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.Web.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.ApplicationInsights.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Newtonsoft.Json.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Net.Http.Formatting.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Web.Http.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Web.Http.WebHost.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.Web.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.ApplicationInsights.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\Newtonsoft.Json.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Net.Http.Formatting.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Web.Http.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\bin\System.Web.Http.WebHost.xml
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\obj\Debug\ConvertTojQuery.csprojResolveAssemblyReference.cache
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\obj\Debug\ConvertTojQuery.dll
+C:\Users\AkaTsuki\Desktop\Bellevue College\ISIT 422 - Application Architecture\GIT\FirstProjectCoding5eva\ConvertTojQuery\ConvertTojQuery\obj\Debug\ConvertTojQuery.pdb

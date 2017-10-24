@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Coding5Eva Note App</title>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="Scripts/MyJavaScript.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+
+<body>
+    <div data-role="page" id="pageone" data-theme="b">
+        <div data-role="header">
+            <h3>First Page</h3>
+        </div>
+
+        <div data-role="content">
+            <div>
+                <ul data-role="listview" data-autodividers="true" data-theme="b" id="notes"></ul>
+            </div>
+        </div>
+
+        <hr />
+
+        <div>
+            <h6>To add a note, click the button below:</h6>
+            <a data-role="button" data-icon="plus" href="#add-page">Go to Add Page</a>
+        </div>
+
+        <div>
+            <h6>To delete a note, click link below to delete by id or subject</h6>
+            <br />
+            <a data-role="button" data-icon="delete" href="#delete-page">Go to Delete Page</a>
+        </div>
+
+        <div data-role="footer">
+            <h1>copyright Coding5eva 2017</h1>
+        </div>
+    </div>
+
+    <div data-role="page" id="details-page" data-theme="a">
+        <div data-role="header">
+            <h3>Details</h3>
+            <a href="#pageone" class="ui-btn-left" data-transition="slide">Back</a>
+        </div>
+
+        <div data-role="content">
+            <p id="detailParmHere" hidden>change1</p>
+            <p id="showdata">change2</p>
+        </div>
+
+        <div data-role="footer">
+            <h1>copyright Coding5eva 2017</h1>
+        </div>
+    </div>
+
+    <div data-role="page" id="add-page" data-theme="c">
+        <div data-role="header">
+            <h3>Add Note</h3>
+            <a href="#pageone" class="ui-btn-left" data-transition="slide">Back</a>
+        </div>
+
+        <div data-role="content">
+            Subject : <input type="text" id="subject" /><br />
+            Details : <input type="text" id="details" /><br />
+            Priority : <input type="text" id="priority" /><br />
+
+            <input type="button" data-icon="plus" data-theme="b" id="addBtn" value="Add Note" onclick="addNote()"/>
+            <p id="addNote" />
+        </div>
+
+        <div data-role="footer">
+            <h1>copyright Coding5eva 2017</h1>
+        </div>
+     </div>
+
+    <div data-role="page" id="delete-page" data-theme="d">
+        <div data-role="header">
+            <h3>Delete Note</h3>
+            <a href="#pageone" class="ui-btn-left" data-transition="slide">Back</a>
+        </div>
+        
+        <div data-role="content">
+            <p>Pick by Id or the Subject to Delete (if more than 1 item have the same subject, only the first subject would be deleted)</p>
+            <p id="delList"></p>
+            Subject : <input type="text" id="delSubject" /><br />
+            Id : <input type="text" id="delId" /><br />
+
+            <input type="button" data-icon="delete" data-theme="a" id="delBtn" value="Delete Note" onclick="delNote()" />
+            <p id="delNote" />
+        </div>
+
+        <div data-role="footer">
+            <h1>copyright Coding5eva 2017</h1>
+        </div>
+    </div>
+</body>
+</html>
