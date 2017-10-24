@@ -12,7 +12,6 @@ using System.Net.Mime;
 using System.Web.Http;
 
 
-
 using ISIT422_MongodbNotes.Controllers;
 using ISIT422_MongodbNotes.Models;
 using System.Web.Http.Results;
@@ -151,5 +150,43 @@ namespace ISIT422_MongodbNotes.Tests
 
             Assert.AreEqual(response.StatusCode, HttpStatusCode.OK);
         }
+
+        [TestMethod]
+        public void AddFakeNote_ShouldAddNote()
+        {
+            var controller = new NotesController(GenerateFakeDataList());
+            Note addNote = new Note();
+            addNote.Id = "asdf";
+            addNote.Subject = "Test1";
+            addNote.Details = "Test1 details";
+            addNote.Priority = 1;
+
+            var response = controller.Save(addNote);
+
+            IHttpActionResult result = controller.GetNote("Test1");
+            //var delete = controller.Delete("Test1");
+            var result2 = result as OkNegotiatedContentResult<Note>;
+            Assert.AreEqual(addNote.StatusCode, result2.Content.StatusCode);
+            
+        }
+        [TestMethod]
+        public void AddMongoNote_ShouldAddRecord()
+        {
+            var controller = new NotesController();
+            Note addNote = new Note();
+            addNote.Id = "";
+            addNote.Subject = "Test1";
+            addNote.Details = "Test1 details";
+            addNote.Priority = 1;
+
+            var response = controller.Save(addNote);
+
+            IHttpActionResult result = controller.GetNote("Test1");
+            var delete = controller.Delete("Test1 ");
+            var result2 = result as OkNegotiatedContentResult<Note>;
+
+            Assert.AreEqual(addNote.StatusCode, result2.Content.StatusCode);
+        }
+        
     }
 }

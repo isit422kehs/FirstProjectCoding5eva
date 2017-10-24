@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Net;
 
 namespace ISIT422_MongodbNotes.Models
 {
@@ -14,6 +15,7 @@ namespace ISIT422_MongodbNotes.Models
         public string Subject { get; set; }
         public string Details { get; set; }
         public int Priority { get; set; }
+        public HttpStatusCode StatusCode { get; set; }
 
         public int CompareTo(object obj)
         {
