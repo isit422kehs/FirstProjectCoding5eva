@@ -1,5 +1,5 @@
 ﻿var uri = 'api/notes';
-let parm = "";
+let parm = '';
 
 $(document).on('click', 'a', function () {
     parm = $(this).attr("data-parm");
@@ -67,7 +67,7 @@ function showNotes() {
       .done(function (data) {
 
           $.each(data, function (key, record) {
-              $('#notes').append('<li><a data-transition="pop" data-parm=' + record.Id + ' href="#details-page" class="ui-btn ui-btn-icon-right ui-icon-carat-r">' + record.Priority + ' => ' + record.Subject + '</a></li>');
+              $('#notes').append('<li><a data-transition="pop" data-parm=' + record.Subject + ' href="#details-page" class="ui-btn ui-btn-icon-right ui-icon-carat-r">' + record.Priority + ' => ' + record.Subject + '</a></li>');
           });
       });
 }
@@ -80,7 +80,7 @@ function addNote() {
 
     $.ajax({
         type: "POST",
-        url: "api/save",
+        url: uri,
         data: {
             "Subject": subject,
             "Details": details,
@@ -119,7 +119,7 @@ function delNote() {
 
     $.ajax({
         type: 'DELETE',
-        url: 'api/delete/' + delID,
+        url: uri + "/" + delID,
         success: function () {
             $('#delNote').text('successfully deleted note with id of: ' + delID);
             
